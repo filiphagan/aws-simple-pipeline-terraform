@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:Scan"
+            ],
+            "Resource": "arn:aws:dynamodb:eu-central-1:632629704764:table/contacts-db-7742"
+        }
+    ]
+}
